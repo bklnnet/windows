@@ -1,0 +1,597 @@
+^text/x-rundeck-log-v2.0^
+^2017-06-06T03:24:59Z|stepbegin||{node=Marks-MBP.home|step=1|stepctx=1|user=admin}|^
+^2017-06-06T03:24:59Z|nodebegin||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|aws-mother.naumowicz.net | SUCCESS => {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|    "ansible_facts": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_all_ipv4_addresses": [^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "172.31.18.36"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        ], ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_all_ipv6_addresses": [^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "fe80::d8:57ff:fe66:cd3a"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        ], ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_architecture": "x86_64", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_bios_date": "02/16/2017", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_bios_version": "4.2.amazon", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_cmdline": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "BOOT_IMAGE": "/boot/vmlinuz-4.9.0-kali4-amd64", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "console": "ttyS0,115200", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "consoleblank": "0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "earlyprintk": "ttyS0,115200", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "ro": true, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "root": "UUID=354bed81-b978-4d41-b45b-f5a2ed5db699", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "systemd.show_status": "true"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_date_time": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "date": "2017-06-05", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "day": "05", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "epoch": "1496719505", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "hour": "23", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "iso8601": "2017-06-06T03:25:05Z", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "iso8601_basic": "20170605T232505148431", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "iso8601_basic_short": "20170605T232505", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "iso8601_micro": "2017-06-06T03:25:05.148521Z", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "minute": "25", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "month": "06", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "second": "05", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "time": "23:25:05", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "tz": "EDT", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "tz_offset": "-0400", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "weekday": "Monday", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "weekday_number": "1", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "weeknumber": "23", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "year": "2017"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_default_ipv4": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "address": "172.31.18.36", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "alias": "eth0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "broadcast": "172.31.31.255", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "gateway": "172.31.16.1", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "interface": "eth0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "macaddress": "02:d8:57:66:cd:3a", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "mtu": 9001, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "netmask": "255.255.240.0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "network": "172.31.16.0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "type": "ether"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_default_ipv6": {}, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_devices": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "xvda": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "holders": [], ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "host": "", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "model": null, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "partitions": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                    "xvda1": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                        "holders": [], ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                        "sectors": "41938944", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                        "sectorsize": 512, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                        "size": "20.00 GB", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                        "start": "2048", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                        "uuid": "354bed81-b978-4d41-b45b-f5a2ed5db699"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                    }^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "removable": "0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rotational": "0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "sas_address": null, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "sas_device_handle": null, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "scheduler_mode": "", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "sectors": "41943040", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "sectorsize": "512", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "size": "20.00 GB", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "support_discard": "0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "vendor": null^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_distribution": "Kali", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_distribution_major_version": "kali-rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_distribution_release": "kali-rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_distribution_version": "kali-rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_dns": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "domain": "us-west-2.compute.internal", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "nameservers": [^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "172.31.0.2"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            ], ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "search": [^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "us-west-2.compute.internal"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            ]^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_domain": "naumowicz.net", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_env": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1001/bus", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "HOME": "/home/mgn", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "LANG": "en_US.UTF-8", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "LOGNAME": "mgn", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "MAIL": "/var/mail/mgn", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "OLDPWD": "/home/mgn", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "PATH": "/usr/local/bin:/usr/bin:/bin:/usr/games", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "PWD": "/home/mgn", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "SHELL": "/usr/bin/zsh", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "SHLVL": "0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "SSH_CLIENT": "67.83.217.51 51194 22", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "SSH_CONNECTION": "67.83.217.51 51194 172.31.18.36 22", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "SSH_TTY": "/dev/pts/1", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "TERM": "xterm-256color", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "USER": "mgn", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "XDG_RUNTIME_DIR": "/run/user/1001", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "XDG_SESSION_ID": "5229", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "_": "/bin/sh"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_eth0": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "active": true, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "device": "eth0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "features": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "busy_poll": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "fcoe_mtu": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "generic_receive_offload": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "generic_segmentation_offload": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "highdma": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "hw_tc_offload": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "l2_fwd_offload": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "large_receive_offload": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "loopback": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "netns_local": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "ntuple_filters": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "receive_hashing": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_all": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_checksumming": "on [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_fcs": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_vlan_filter": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_vlan_offload": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_vlan_stag_filter": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_vlan_stag_hw_parse": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "scatter_gather": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tcp_segmentation_offload": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_checksum_fcoe_crc": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_checksum_ip_generic": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_checksum_ipv4": "on [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_checksum_ipv6": "off [requested on]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_checksum_sctp": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_checksumming": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_fcoe_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_gre_csum_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_gre_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_gso_partial": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_gso_robust": "on [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_ipxip4_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_ipxip6_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_lockless": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_nocache_copy": "off", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_scatter_gather": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_scatter_gather_fraglist": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_sctp_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_tcp6_segmentation": "off [requested on]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_tcp_ecn_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_tcp_mangleid_segmentation": "off", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_tcp_segmentation": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_udp_tnl_csum_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_udp_tnl_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_vlan_offload": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_vlan_stag_hw_insert": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "udp_fragmentation_offload": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "vlan_challenged": "off [fixed]"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "ipv4": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "address": "172.31.18.36", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "broadcast": "172.31.31.255", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "netmask": "255.255.240.0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "network": "172.31.16.0"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "ipv6": [^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                    "address": "fe80::d8:57ff:fe66:cd3a", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                    "prefix": "64", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                    "scope": "link"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                }^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            ], ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "macaddress": "02:d8:57:66:cd:3a", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "module": "xen_netfront", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "mtu": 9001, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "pciid": "vif-0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "promisc": false, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "type": "ether"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_fips": false, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_form_factor": "Other", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_fqdn": "aws-mother.naumowicz.net", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_gather_subset": [^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "hardware", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "network", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "virtual"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        ], ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_hostname": "aws-mother", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_interfaces": [^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "lo", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "eth0"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        ], ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_kernel": "4.9.0-kali4-amd64", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_lo": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "active": true, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "device": "lo", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "features": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "busy_poll": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "fcoe_mtu": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "generic_receive_offload": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "generic_segmentation_offload": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "highdma": "on [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "hw_tc_offload": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "l2_fwd_offload": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "large_receive_offload": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "loopback": "on [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "netns_local": "on [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "ntuple_filters": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "receive_hashing": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_all": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_checksumming": "on [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_fcs": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_vlan_filter": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_vlan_offload": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_vlan_stag_filter": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "rx_vlan_stag_hw_parse": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "scatter_gather": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tcp_segmentation_offload": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_checksum_fcoe_crc": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_checksum_ip_generic": "on [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_checksum_ipv4": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_checksum_ipv6": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_checksum_sctp": "on [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_checksumming": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_fcoe_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_gre_csum_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_gre_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_gso_partial": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_gso_robust": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_ipxip4_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_ipxip6_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_lockless": "on [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_nocache_copy": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_scatter_gather": "on [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_scatter_gather_fraglist": "on [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_sctp_segmentation": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_tcp6_segmentation": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_tcp_ecn_segmentation": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_tcp_mangleid_segmentation": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_tcp_segmentation": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_udp_tnl_csum_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_udp_tnl_segmentation": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_vlan_offload": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "tx_vlan_stag_hw_insert": "off [fixed]", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "udp_fragmentation_offload": "on", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "vlan_challenged": "on [fixed]"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "ipv4": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "address": "127.0.0.1", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "broadcast": "host", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "netmask": "255.0.0.0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "network": "127.0.0.0"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "ipv6": [^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                    "address": "::1", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                    "prefix": "128", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                    "scope": "host"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                }^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            ], ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "mtu": 65536, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "promisc": false, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "type": "loopback"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_lsb": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "codename": "kali-rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "description": "Kali GNU/Linux Rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "id": "Kali", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "major_release": "kali-rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "release": "kali-rolling"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_machine": "x86_64", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_machine_id": "256ffbb6314146e48d4e8933a4d21611", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_memfree_mb": 158, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_memory_mb": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "nocache": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "free": 509, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "used": 485^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "real": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "free": 158, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "total": 994, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "used": 836^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "swap": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "cached": 0, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "free": 0, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "total": 0, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "used": 0^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_memtotal_mb": 994, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_mounts": [^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "device": "/dev/xvda1", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "fstype": "ext4", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "mount": "/", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "options": "rw,relatime,errors=remount-ro,data=ordered", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "size_available": 8748830720, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "size_total": 21001486336, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "uuid": "354bed81-b978-4d41-b45b-f5a2ed5db699"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        ], ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_nodename": "aws-mother.naumowicz.net", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_os_family": "Kali", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_pkg_mgr": "apt", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_processor": [^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "GenuineIntel", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        ], ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_processor_cores": 1, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_processor_count": 1, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_processor_threads_per_core": 1, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_processor_vcpus": 1, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_product_name": "HVM domU", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_product_serial": "NA", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_product_uuid": "NA", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_product_version": "4.2.amazon", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_python": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "executable": "/usr/bin/python", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "has_sslcontext": true, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "type": "CPython", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "version": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "major": 2, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "micro": 13, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "minor": 7, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "releaselevel": "final", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "serial": 0^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "version_info": [^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                2, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                7, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                13, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "final", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                0^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            ]^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_python_version": "2.7.13", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_selinux": false, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_service_mgr": "systemd", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_ssh_host_key_dsa_public": "AAAAB3NzaC1kc3MAAACBAJoaUIWO9IC9RsqqKl+qZRgWH8nq6xgQWM/iQaRuB2s7CD4r1TWQsOOjmxeVdLPAyINotfF6PJ0gxdvQNdPa+C49eCEs1V2id7xY1ipA0xZ31DgeC3norAN9OJUDIiY3tyKKIQoFXJ7ldNArzrKLkcJpeetGC9iHEwLRWcJROgE1AAAAFQDwLKk8OK1hs1RVJbzWyEnR0cTD9QAAAIBB3Ntd/5VWhqHcesQG/JQUT76DGIMi4xoGgNYKkMbR6Gsw350tgzulSqvluVwLC//HJApvklct6/BHmt5gbnmsPLZeJMeRU/FUTp/SsImbPSQjIHyzrYslzXzMpQPfMJwRMbscL6LPIWFw4IDVfH6xN4frRNKb2Cktaqp0n/PQDAAAAIAhcgO0u1OTxRxfdKqQNVAyZU1Ow8DI6tFUlEnTP0Y3s4yNxwaaQ8RYQ8ONPZyMaU3ZJ7THrk4NY/kkK/YrDpFL2h0N69VNf0SCjDsm7UfIlxRBpwKL+LduQWXTGUO5YYxrUIqhkKiCgXq9GELM/m7Py/dJ/Mvsnu7bxh/Py6LqbA==", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBjkZhpBU0K768qc3LKhvkO/11ChlcWmpdNKh3Rvy/y2eyGBJu4b3xIP8rQxUvSerjEI0hWv+S3DEvDFAER6QC0=", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIOmme6R1sX9iDz1Vm2eMAn2Zcbu2H0H8h3pd+1d4qrBi", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQC/bY5IQ9sPuNuKVafQMc0MqjVvOHyobT13FU/S+97Shflikst8pbY9z5wKKrgEIGGX6wIw+EI0aR9zbiCrRxB7443fo+OBrgDgdU+CWs9QF1QyULD00hAiMfRh/aRtefkP9u7i8DUbvm6nAMF2760baDBp2+pwk5G40Pz04FUeg4LuagwoaH6yoHkNqUgGAhUxdmJIfUzwbZfSzDOCz3a1iPSaagla66+cN1/DYbemaj5gqQGRaN4KJUBDO43nRAuRfrohkxrRxErL+j3fPyGF+m4GWgzuc18xdhyM5Jl/5tJowY8ultqRG4bLwDzYAXGmtTq3DpJc05nXD/fHY4zn", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_swapfree_mb": 0, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_swaptotal_mb": 0, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_system": "Linux", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_system_capabilities": [^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            ""^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        ], ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_system_capabilities_enforced": "True", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_system_vendor": "Xen", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_uptime_seconds": 1420514, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_user_dir": "/home/mgn", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_user_gecos": "MGN210", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_user_gid": 1001, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_user_id": "mgn", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_user_shell": "/usr/bin/zsh", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_user_uid": 1001, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_userspace_architecture": "x86_64", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_userspace_bits": "64", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_virtualization_role": "guest", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "ansible_virtualization_type": "xen", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_architecture": "amd64", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_augeasversion": "1.8.0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_blockdevice_xvda_size": 21474836480, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_blockdevices": "xvda", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_domain": "naumowicz.net", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_ami_id": "ami-a4a020c4", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_ami_launch_index": "0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_ami_manifest_path": "(unknown)", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_block_device_mapping_ami": "/dev/sda1", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_block_device_mapping_root": "/dev/sda1", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_hostname": "ip-172-31-18-36.us-west-2.compute.internal", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_instance_action": "none", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_instance_id": "i-0e2c6e20573340ecb", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_instance_type": "t2.micro", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_local_hostname": "ip-172-31-18-36.us-west-2.compute.internal", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_local_ipv4": "172.31.18.36", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_mac": "02:d8:57:66:cd:3a", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_metadata": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "ami-id": "ami-a4a020c4", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "ami-launch-index": "0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "ami-manifest-path": "(unknown)", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "block-device-mapping": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "ami": "/dev/sda1", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "root": "/dev/sda1"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "hostname": "ip-172-31-18-36.us-west-2.compute.internal", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "instance-action": "none", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "instance-id": "i-0e2c6e20573340ecb", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "instance-type": "t2.micro", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "local-hostname": "ip-172-31-18-36.us-west-2.compute.internal", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "local-ipv4": "172.31.18.36", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "mac": "02:d8:57:66:cd:3a", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "metrics": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "vhostmd": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "network": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "interfaces": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                    "macs": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                        "02:d8:57:66:cd:3a": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "device-number": "0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "interface-id": "eni-03583b28", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "ipv4-associations": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                                "52.38.207.161": "172.31.18.36"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "local-hostname": "ip-172-31-18-36.us-west-2.compute.internal", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "local-ipv4s": "172.31.18.36", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "mac": "02:d8:57:66:cd:3a", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "owner-id": "396604198235", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "public-hostname": "ec2-52-38-207-161.us-west-2.compute.amazonaws.com", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "public-ipv4s": "52.38.207.161", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "security-group-ids": "sg-d9c3aea2", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "security-groups": "Kali Linux-kali-rolling-AutogenByAWSMP-", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "subnet-id": "subnet-eecd4389", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "subnet-ipv4-cidr-block": "172.31.16.0/20", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "vpc-id": "vpc-dccfb8bb", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "vpc-ipv4-cidr-block": "172.31.0.0/16", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                            "vpc-ipv4-cidr-blocks": "172.31.0.0/16"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                        }^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                    }^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                }^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "placement": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "availability-zone": "us-west-2b"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "product-codes": "89bab4k3h9x4rkojcm2tj8j4l", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "profile": "default-hvm", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "public-hostname": "ec2-52-38-207-161.us-west-2.compute.amazonaws.com", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "public-ipv4": "52.38.207.161", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "public-keys": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "0": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                    "openssh-key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCZTaal+Pi0Upo9vPCyxoP5pX0TwxRiieJoxzklqx38w+JVCu6JvquWCheLepAV9PqeVnWpuWZXurdvOshngH3CZJ/AJ8Mw9Qv7oBXdFfs3WygSErIbjoYdUsyO6KQ5t8hMi8VLoTp0Hmuy6DHT9jswGCnmP48EvQANXUXZJPMkwpwAVPKE5Vtka+GJrWakTpmeD/mufquuKhUcuKyREVC3/Ikl145bvnNQXRRwkdwmGyUN2TLMiykolPLJa2207IQENc25m/orpDPTf/Vz6GqJNNBPPsWhRkPS86WpJQcv1aMVZOr4mdhQ5ihLTNZq8rngxSCf9smkq6GrvgbAw8v7 awsbkln"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                }^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "reservation-id": "r-0558dcd791786d337", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "security-groups": "Kali Linux-kali-rolling-AutogenByAWSMP-", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "services": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "domain": "amazonaws.com", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "partition": "aws"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_metrics_vhostmd": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_device_number": "0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_interface_id": "eni-03583b28", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_ipv4_associations_52.38.207.161": "172.31.18.36", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_local_hostname": "ip-172-31-18-36.us-west-2.compute.internal", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_local_ipv4s": "172.31.18.36", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_mac": "02:d8:57:66:cd:3a", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_owner_id": "396604198235", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_public_hostname": "ec2-52-38-207-161.us-west-2.compute.amazonaws.com", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_public_ipv4s": "52.38.207.161", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_security_group_ids": "sg-d9c3aea2", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_security_groups": "Kali Linux-kali-rolling-AutogenByAWSMP-", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_subnet_id": "subnet-eecd4389", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_subnet_ipv4_cidr_block": "172.31.16.0/20", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_vpc_id": "vpc-dccfb8bb", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_vpc_ipv4_cidr_block": "172.31.0.0/16", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_network_interfaces_macs_02:d8:57:66:cd:3a_vpc_ipv4_cidr_blocks": "172.31.0.0/16", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_placement_availability_zone": "us-west-2b", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_product_codes": "89bab4k3h9x4rkojcm2tj8j4l", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_profile": "default-hvm", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_public_hostname": "ec2-52-38-207-161.us-west-2.compute.amazonaws.com", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_public_ipv4": "52.38.207.161", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_public_keys_0_openssh_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCZTaal+Pi0Upo9vPCyxoP5pX0TwxRiieJoxzklqx38w+JVCu6JvquWCheLepAV9PqeVnWpuWZXurdvOshngH3CZJ/AJ8Mw9Qv7oBXdFfs3WygSErIbjoYdUsyO6KQ5t8hMi8VLoTp0Hmuy6DHT9jswGCnmP48EvQANXUXZJPMkwpwAVPKE5Vtka+GJrWakTpmeD/mufquuKhUcuKyREVC3/Ikl145bvnNQXRRwkdwmGyUN2TLMiykolPLJa2207IQENc25m/orpDPTf/Vz6GqJNNBPPsWhRkPS86WpJQcv1aMVZOr4mdhQ5ihLTNZq8rngxSCf9smkq6GrvgbAw8v7 awsbkln", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_reservation_id": "r-0558dcd791786d337", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_security_groups": "Kali Linux-kali-rolling-AutogenByAWSMP-", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_services_domain": "amazonaws.com", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ec2_services_partition": "aws", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_facterversion": "2.4.6", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_filesystems": "ext2,ext3,ext4,iso9660", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_fqdn": "aws-mother.naumowicz.net", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_gid": "mgn", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_hardwareisa": "unknown", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_hardwaremodel": "x86_64", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_hostname": "aws-mother", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_id": "mgn", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_interfaces": "eth0,lo", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ipaddress": "172.31.18.36", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ipaddress_eth0": "172.31.18.36", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ipaddress_lo": "127.0.0.1", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_is_virtual": true, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_kernel": "Linux", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_kernelmajversion": "4.9", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_kernelrelease": "4.9.0-kali4-amd64", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_kernelversion": "4.9.0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_lsbdistcodename": "kali-rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_lsbdistdescription": "Kali GNU/Linux Rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_lsbdistid": "Kali", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_lsbdistrelease": "kali-rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_lsbmajdistrelease": "kali-rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_macaddress": "02:d8:57:66:cd:3a", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_macaddress_eth0": "02:d8:57:66:cd:3a", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_memoryfree": "472.54 MB", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_memoryfree_mb": "472.54", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_memorysize": "994.69 MB", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_memorysize_mb": "994.69", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_mtu_eth0": 9001, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_mtu_lo": 65536, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_netmask": "255.255.240.0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_netmask_eth0": "255.255.240.0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_netmask_lo": "255.0.0.0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_network_eth0": "172.31.16.0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_network_lo": "127.0.0.0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_operatingsystem": "Debian", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_operatingsystemmajrelease": "Kali Linux Rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_operatingsystemrelease": "Kali Linux Rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_os": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "family": "Debian", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "lsb": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "distcodename": "kali-rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "distdescription": "Kali GNU/Linux Rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "distid": "Kali", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "distrelease": "kali-rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "majdistrelease": "kali-rolling"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "name": "Debian", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "release": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "full": "Kali Linux Rolling", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "major": "Kali Linux Rolling"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_osfamily": "Debian", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_partitions": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "xvda1": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "filesystem": "ext4", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "label": "root", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "mount": "/", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "size": "41938944", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "uuid": "354bed81-b978-4d41-b45b-f5a2ed5db699"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            }^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_path": "/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/sbin:/sbin", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_physicalprocessorcount": 1, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_processor0": "Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_processorcount": 1, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_processors": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "count": 1, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "models": [^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|                "Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            ], ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "physicalcount": 1^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_ps": "ps -ef", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_puppetversion": "4.8.2", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_rubyplatform": "x86_64-linux-gnu", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_rubysitedir": "/usr/local/lib/site_ruby/2.3.0", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_rubyversion": "2.3.3", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_selinux": false, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_sshdsakey": "AAAAB3NzaC1kc3MAAACBAJoaUIWO9IC9RsqqKl+qZRgWH8nq6xgQWM/iQaRuB2s7CD4r1TWQsOOjmxeVdLPAyINotfF6PJ0gxdvQNdPa+C49eCEs1V2id7xY1ipA0xZ31DgeC3norAN9OJUDIiY3tyKKIQoFXJ7ldNArzrKLkcJpeetGC9iHEwLRWcJROgE1AAAAFQDwLKk8OK1hs1RVJbzWyEnR0cTD9QAAAIBB3Ntd/5VWhqHcesQG/JQUT76DGIMi4xoGgNYKkMbR6Gsw350tgzulSqvluVwLC//HJApvklct6/BHmt5gbnmsPLZeJMeRU/FUTp/SsImbPSQjIHyzrYslzXzMpQPfMJwRMbscL6LPIWFw4IDVfH6xN4frRNKb2Cktaqp0n/PQDAAAAIAhcgO0u1OTxRxfdKqQNVAyZU1Ow8DI6tFUlEnTP0Y3s4yNxwaaQ8RYQ8ONPZyMaU3ZJ7THrk4NY/kkK/YrDpFL2h0N69VNf0SCjDsm7UfIlxRBpwKL+LduQWXTGUO5YYxrUIqhkKiCgXq9GELM/m7Py/dJ/Mvsnu7bxh/Py6LqbA==", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_sshecdsakey": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBjkZhpBU0K768qc3LKhvkO/11ChlcWmpdNKh3Rvy/y2eyGBJu4b3xIP8rQxUvSerjEI0hWv+S3DEvDFAER6QC0=", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_sshed25519key": "AAAAC3NzaC1lZDI1NTE5AAAAIOmme6R1sX9iDz1Vm2eMAn2Zcbu2H0H8h3pd+1d4qrBi", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_sshfp_dsa": "SSHFP 2 1 44424854410295de165bb74fbdcee75af98fd761\\nSSHFP 2 2 6d43d79d7252de1a5cacf0a7c4c690c778d1174aecd1ce348e9fbd1134e3bba3", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_sshfp_ecdsa": "SSHFP 3 1 14c111352a2ab161345620e6892b45846bdf681b\\nSSHFP 3 2 184e712d2d645151e8ef58f4cbd54fcc9cd9bea862d41419dc618946729f1172", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_sshfp_ed25519": "SSHFP 4 1 e5b5700cdd29774703b01faaba71c441b84901cc\\nSSHFP 4 2 8fbd1c6256bd907b445f0494ab62fce1dba4e79b7f3d648cd5fe6a7489210753", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_sshfp_rsa": "SSHFP 1 1 b769e75960ad9471115e8bb27169895b0e750c4b\\nSSHFP 1 2 8bf0d2cd54f882bba7eb516ce1d2bf1e56f4ae6915a65dc86d618fe3ec88d4ea", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_sshrsakey": "AAAAB3NzaC1yc2EAAAADAQABAAABAQC/bY5IQ9sPuNuKVafQMc0MqjVvOHyobT13FU/S+97Shflikst8pbY9z5wKKrgEIGGX6wIw+EI0aR9zbiCrRxB7443fo+OBrgDgdU+CWs9QF1QyULD00hAiMfRh/aRtefkP9u7i8DUbvm6nAMF2760baDBp2+pwk5G40Pz04FUeg4LuagwoaH6yoHkNqUgGAhUxdmJIfUzwbZfSzDOCz3a1iPSaagla66+cN1/DYbemaj5gqQGRaN4KJUBDO43nRAuRfrohkxrRxErL+j3fPyGF+m4GWgzuc18xdhyM5Jl/5tJowY8ultqRG4bLwDzYAXGmtTq3DpJc05nXD/fHY4zn", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_swapfree": "0.00 MB", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_swapfree_mb": "0.00", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_swapsize": "0.00 MB", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_swapsize_mb": "0.00", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_system_uptime": {^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "days": 16, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "hours": 394, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "seconds": 1420514, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|            "uptime": "16 days"^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_timezone": "EDT", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_uniqueid": "2634a1cf", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_uptime": "16 days", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_uptime_days": 16, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_uptime_hours": 394, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_uptime_seconds": 1420514, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "facter_virtual": "xenu", ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|        "module_setup": true^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|    }, ^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|    "changed": false^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|}^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}| [WARNING]: Failure using method (v2_runner_on_ok) in callback plugin^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|(</Users/mgn/.ansible/callback_plugins/foreman_callback.CallbackModule object^
+^2017-06-06T03:25:05Z|||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|at 0x10d8ab210>): [Errno 2] No such file or directory^
+^2017-06-06T03:25:05Z|nodeend||{node=Marks-MBP.home|step=1|stepctx=1|user=mgn}|^
+^2017-06-06T03:25:05Z|stepend||{node=Marks-MBP.home|step=1|stepctx=1|user=admin}|^
+^END^

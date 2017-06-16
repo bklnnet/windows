@@ -1,0 +1,7 @@
+[2017-06-05 23:20:50,933] admin start [1:running] AnsibleProject admin/- "-/-"[-] 
+[2017-06-05 23:20:51,697] admin finish [1:failed] AnsibleProject admin/- "-/-"[-] 
+[2017-06-05 23:21:33,420] admin start [2:running] AnsibleProject admin/- "-/-"[-] 
+[2017-06-05 23:21:44,257] admin finish [2:succeeded] AnsibleProject admin/- "-/-"[-] 
+[2017-06-05 23:23:39,014] admin delete [1:failed] AnsibleProject admin/- "-/-"[-] 
+[2017-06-05 23:24:59,828] admin start [3:running] AnsibleProject admin/- "-/-"[-] 
+[2017-06-05 23:25:05,827] admin finish [3:succeeded] AnsibleProject admin/- "-/-"[-] 

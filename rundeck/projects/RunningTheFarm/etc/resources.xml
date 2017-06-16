@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <node name="Marks-MBP.home" description="Rundeck server node" tags="" hostname="Marks-MBP.home" osArch="x86_64" osFamily="unix" osName="Mac OS X" osVersion="10.12.3" username="mgn"/>
+</project>
